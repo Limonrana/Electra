@@ -29,7 +29,7 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Electra, please send an e-mail to Limon Rana via [limon@websoftking.com](mailto:limon@websoftking.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Electra, please send an e-mail to Limon Rana via [limon@electra.websoftking.com](mailto:limon@electra.websoftking.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
