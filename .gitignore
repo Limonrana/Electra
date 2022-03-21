@@ -2,6 +2,7 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+.idea/
 
 # Electra 1 specific
 bootstrap/compiled.php
