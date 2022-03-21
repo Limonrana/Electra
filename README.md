@@ -21,11 +21,11 @@ Electra has the most extensive and thorough [documentation](https://electra.webs
 
 ## Electra Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Electra development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com).
+We would like to extend our thanks to the following sponsors for funding Electra development. If you are interested in becoming a sponsor, please visit the Electra [Patreon page](https://patreon.com).
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Electra documentation](https://electra.websoftking.com.com/docs/contributions).
+Thank you for considering contributing to the Electra framework! The contribution guide can be found in the [Electra documentation](https://electra.websoftking.com.com/docs/contributions).
 
 ## Security Vulnerabilities
 
