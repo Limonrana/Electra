@@ -5,7 +5,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "app\\": "./"
+            "app\\": "./",
+            "App\\": "./app",
+            "Illumine\\": "./core/Illumine/",
+            "Illumine\\Foundation\\Auth\\": "./core/Illumine/Auth"
         }
     },
     "authors": [

@@ -1,0 +1,58 @@
+#!/usr/bin/env php
+<?php
+
+use Illumine\Console\Command\HelloCommand;
+
+define('ELECTRA_START', microtime(true));
+
+if (php_sapi_name() !== 'cli') {
+    exit;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader
+| for our application. We just need to utilize it! We'll require it
+| into the script here so that we do not have to worry about the
+| loading of any our classes "manually". Feels great to relax.
+|
+*/
+
+require __DIR__.'/vendor/autoload.php';
+
+$app = new \Illumine\Console\Application();
+
+/*
+|--------------------------------------------------------------------------
+| Run The Electra Application
+|--------------------------------------------------------------------------
+|
+| When we run the console application, the current CLI command will be
+| executed in this console and the response sent back to a terminal
+| or another output device for the developers. Here goes nothing!
+|
+*/
+
+// Register the electra application commands.
+$app->setSignature("minicli hello name [ user=name ]");
+
+//$app->registerCommand('--help', function (array $argv) use ($app) {
+//    $app->getOutput()->display("usage: electra hello [ your-name ]");
+//});
+
+/*
+|--------------------------------------------------------------------------
+| Shutdown The Application
+|--------------------------------------------------------------------------
+|
+| Once Electra has finished running, we will fire off the shutdown events
+| so that any final work may be done by the application before we shut
+| down the process. This is the last thing to happen to the request.
+|
+*/
+$app->runCommand($argv);
+
+exit();
